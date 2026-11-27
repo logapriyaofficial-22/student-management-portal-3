@@ -24,10 +24,12 @@
     <section id="home" class="hero">
         <h2>Welcome to Student Management Portal</h2>
         <p>Manage students, courses and attendance easily.</p>
-        <button>Explore Dashboard</button>
+        <button type="button" onclick="document.getElementById('dashboard').scrollIntoView({behavior: 'smooth'})">
+    Explore Dashboard
+</button>
     </section>
 
-    <section class="dashboard">
+    <section id="dashboard" class="dashboard">
         <h2>Dashboard Overview</h2>
 
         <div class="container">
